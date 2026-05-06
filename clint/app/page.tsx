@@ -4,7 +4,7 @@ import React from 'react'
 const page = async () => {
   const data = await axios.get('http://localhost:3000/api/Market-Watch')
   return (
-    <div>
+    <div className='flex'>
       {data.data.map((item) => (
         <div key={item.symbol}>
           <h3>{item.name}</h3>
