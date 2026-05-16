@@ -1,20 +1,16 @@
-import axios from 'axios'
-import React from 'react'
+export const dynamic = 'force-dynamic'
 
-const page = async () => {
-  const data = await axios.get('http://localhost:3000/api/Market-Watch')
+import React from 'react'
+import Companydata from '@/components/company'
+import Newsdata from '@/components/news'
+import Navbar from '@/components/navbar'
+
+const Page = () => {
   return (
-    <div className='flex'>
-      {data.data.map((item) => (
-        <div key={item.symbol}>
-          <h3>{item.name}</h3>
-          <p>Symbol: {item.symbol}</p>
-          <p>LTP: {item.ltp}</p>
-          <p>% Change: {item.percentChange}</p>
-        </div>
-      ))}
-    </div>
+<div>  <Navbar />
+     
+      </div>
   )
 }
 
-export default page
+export default Page

@@ -103,6 +103,107 @@ const seedData = [
     marketStats: { marketCap: 1200000000, fiftyTwoWeekHigh: 1350, fiftyTwoWeekLow: 810 },
     fundamentals: { eps: 22.10, peRatio: 40.27, bookValue: 180 }
   }
+  ,
+  {
+    symbol: "NABIL",
+    name: "Nabil Bank Limited",
+    sector: "Commercial Banks",
+    ltp: 485.20,
+    change: 3.40,
+    percentChange: 0.70,
+    marketStats: { marketCap: 131000000000, fiftyTwoWeekHigh: 650, fiftyTwoWeekLow: 440 },
+    fundamentals: { eps: 24.15, peRatio: 20.09, bookValue: 225 }
+  },
+  {
+    symbol: "MNBBL",
+    name: "Muktinath Bikas Bank Ltd.",
+    sector: "Development Banks",
+    ltp: 382.00,
+    change: -2.50,
+    percentChange: -0.65,
+    marketStats: { marketCap: 25000000000, fiftyTwoWeekHigh: 510, fiftyTwoWeekLow: 340 },
+    fundamentals: { eps: 19.80, peRatio: 19.29, bookValue: 158 }
+  },
+  {
+    symbol: "NIFRA",
+    name: "Nepal Infrastructure Bank Limited",
+    sector: "Investment",
+    ltp: 212.00,
+    change: 0.80,
+    percentChange: 0.38,
+    marketStats: { marketCap: 45000000000, fiftyTwoWeekHigh: 315, fiftyTwoWeekLow: 188 },
+    fundamentals: { eps: 8.40, peRatio: 25.24, bookValue: 114 }
+  },
+  {
+    symbol: "SICL",
+    name: "Shikhar Insurance Co. Ltd.",
+    sector: "Non-Life Insurance",
+    ltp: 815.00,
+    change: 14.00,
+    percentChange: 1.75,
+    marketStats: { marketCap: 21000000000, fiftyTwoWeekHigh: 1150, fiftyTwoWeekLow: 750 },
+    fundamentals: { eps: 21.30, peRatio: 38.26, bookValue: 205 }
+  },
+  {
+    symbol: "HIDCL",
+    name: "Hydroelectricity Investment and Development Co.",
+    sector: "Investment",
+    ltp: 168.00,
+    change: -1.20,
+    percentChange: -0.71,
+    marketStats: { marketCap: 38000000000, fiftyTwoWeekHigh: 245, fiftyTwoWeekLow: 152 },
+    fundamentals: { eps: 6.20, peRatio: 27.10, bookValue: 108 }
+  },
+  {
+    symbol: "HRL",
+    name: "Himalayan Reinsurance Limited",
+    sector: "Others",
+    ltp: 612.50,
+    change: 55.60,
+    percentChange: 9.98,
+    marketStats: { marketCap: 61000000000, fiftyTwoWeekHigh: 720, fiftyTwoWeekLow: 510 },
+    fundamentals: { eps: 14.50, peRatio: 42.24, bookValue: 160 }
+  },
+  {
+    symbol: "API",
+    name: "Api Power Company Ltd.",
+    sector: "Hydropower",
+    ltp: 185.00,
+    change: 2.10,
+    percentChange: 1.15,
+    marketStats: { marketCap: 10000000000, fiftyTwoWeekHigh: 295, fiftyTwoWeekLow: 145 },
+    fundamentals: { eps: 4.80, peRatio: 38.54, bookValue: 112 }
+  },
+  {
+    symbol: "CFCL",
+    name: "Central Finance Co. Ltd.",
+    sector: "Finance",
+    ltp: 310.00,
+    change: -8.00,
+    percentChange: -2.52,
+    marketStats: { marketCap: 3000000000, fiftyTwoWeekHigh: 450, fiftyTwoWeekLow: 260 },
+    fundamentals: { eps: 11.20, peRatio: 27.68, bookValue: 135 }
+  },
+  {
+    symbol: "ADBL",
+    name: "Agricultural Development Bank Limited",
+    sector: "Commercial Banks",
+    ltp: 245.00,
+    change: 0.50,
+    percentChange: 0.20,
+    marketStats: { marketCap: 48000000000, fiftyTwoWeekHigh: 380, fiftyTwoWeekLow: 220 },
+    fundamentals: { eps: 15.60, peRatio: 15.71, bookValue: 218 }
+  },
+  {
+    symbol: "LBBL",
+    name: "Lumbini Bikas Bank Ltd.",
+    sector: "Development Banks",
+    ltp: 362.00,
+    change: 4.20,
+    percentChange: 1.17,
+    marketStats: { marketCap: 12000000000, fiftyTwoWeekHigh: 490, fiftyTwoWeekLow: 315 },
+    fundamentals: { eps: 18.10, peRatio: 20.00, bookValue: 162 }
+  }
 ];
 
 const seedDB = async () => {
